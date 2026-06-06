@@ -10,14 +10,12 @@
         .main{
 
             height:25px;
-            background-color: black;
-            color: white;
+            background-color: black;      
             padding: 10px;
         }
         .class a{
-
             text-align: center;
-            padding-left: 5%;
+            padding-left: 10%;
             text-decoration: none;
             color: rgb(255, 255, 255);
         }
@@ -35,18 +33,37 @@
         .a1 p{
             color: rgb(195, 87, 87);
         }
+        .grand{
+            display: flex;
+            margin:20px;
+            gap: 20px;
+        }
+        .grand2{
+            display: flex;
+            margin:20px;
+            gap: 20px;
+        }
+        .grand3{
+            display: flex;
+            margin:20px;
+            gap: 20px;
+        }
+        .grand4{
+            display: flex;
+            margin:20px;
+            gap: 20px;
+        }
         .a2{          
-            width: 220px;
+            width: 300px;
             margin: 5px;
             background-color: #aba7a7;
             border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(185, 73, 73, 0.2);
+            box-shadow: 1px 4px 8px black;
             overflow: hidden;
-            float: left;
         }
         .a2 img{
             width:300px;
-            height: 150px;
+            height: 180px;
             object-fit: cover;
         }
         .content{
@@ -72,49 +89,40 @@
             border: 1px solid black;
             
         }
-        .parent{
-            clear:both;
-        }
+        
         .a4 p{
            
             color:rgb(228, 8, 8);
             text-align: left;
+            
         }
         .a5{
             width:100;
             height:45px;
             margin:10px;
-            background-color: rgb(42, 161, 161);
-            float: left;
+            background-color: rgb(255, 34, 34);
+            border:1px solid black;
+    
         }
         .a5 h2{
             text-align: center;
             color:black;
-        }
-        .a6 label{
-            color:black;
-        } 
-        .a7{
-            width=200px
-            margin: 10px ;
-            display: flex;
-            gap: 10px;         
-        }
+        }             
         .a8 img{
             width: 200px;
             height: 150px;
             object-fit: cover;
             border-radius: 10px;
+            border:1px solid black;
         }
-        .a9{
-            margin:10px
+        .a9{          
             width=200px;
             display:flex;
             gap:40px;
            
         }    
         .a10 {
-             border:2px solid black;
+             border:2px solid black;           
              
         }
         .a10 h2{
@@ -132,7 +140,7 @@
         
 
     </style>
-    <body>
+    <div>
         <div class="main">
             <div class="class">
             <a href="home.html">Home</a>
@@ -148,8 +156,8 @@
              <p>Discover Amezing Destinations.</p>
             <button>Book Now</button>
         </div>
-        <h1 style="color: black"> Pupular Destinations</h1>
-
+        <h1 > Pupular Destinations</h1>
+    <div class="grand">
         <div class="a2">
             <img src="goa.jpeg" alt="Goa">
             <div class="content">
@@ -197,7 +205,8 @@
               <p>popular tourist Destination</p> 
             </div>
         </div>
-
+    </div>
+    <div class="grand2">
         <div class="a2">
             <img src="delhi.jpeg" alt="Delhi">
             <div class="content">
@@ -236,11 +245,13 @@
               <h1>Pune</h1>
               <p>popular tourist Destination</p> 
             </div>
-        </div><br><br>
-
-        <div class="parent">
-            <h1 style="color:black">popular foods</h1>
         </div> 
+    </div>  
+    <div class="parent">
+            <h1>popular foods</h1>
+        </div>   
+    <div class="grand3">
+        
         <div class="a3">
             <div class="a4">
                 <h2>Hyderabad</h2>
@@ -296,10 +307,13 @@
                 <p>Rasugulla</p>
             </div>  
         </div> 
-        
-        <div class="parent">
-            <h1 style="color:black">Transportation</h1>
+    </div> 
+   </div> 
+    <div class="parent">
+            <h1 >Transportation</h1>
         </div>
+    <div class="grand3"> 
+       
         <div class="a5">
             <h2>Flight</h2>
         </div>
@@ -322,12 +336,13 @@
 
         <div class="a5">
             <h2>Bike</h2>
-        </div>
+        </div><br><br>
+     </div>   
         <div class="parent">
             <h1 >Tour Packages</h1>
         </div>
-
-    <table border="1" cellspacing="0" cellpadding="10" width="1000px">
+    
+    <table border="1 black cellspacing="0" cellpadding="10" width="1000px">
         <tr>
             <th>Package</th>
             <th>Days</th>
@@ -421,7 +436,7 @@
     <div class="parent">
         <h1>Adventure Activities</h1>
     </div>
-    <ul style="color:black">
+    <ul>
         <li>Trekking</li>
         <li>Camping</li>
         <li>River Rafting</li>
@@ -437,16 +452,16 @@
     <div class="parent">
         <h1>Packing Checklist</h1>
     </div>
-    <h2>Packing Checklist</h2>
+    <h3>Packing Checklist</h3>
     <div class="a6">
         <input type="checkbox" id="bag">
         <label for="bag">Travel Bag</label><br>
         <input type="checkbox" id="clothes">
         <label for="clothes">Clothes</label><br>
-         <input type="checkbox" id="towel">
-         <label for="towel">Towels</label><br>
-         <input type="checkbox" id="shoes">
-         <label for="shoes">Shoes</label><br>
+        <input type="checkbox" id="towel">
+        <label for="towel">Towels</label><br>
+        <input type="checkbox" id="shoes">
+        <label for="shoes">Shoes</label><br>
         <input type="checkbox" id="water">
         <label for="water">Water Bottle</label><br>
         <input type="checkbox" id="DrivingLicense">
@@ -460,7 +475,7 @@
         <h1>Travel Survey</h1>
     </div>
     <div class="a6">
-        <p style="color:black">Favorite Destination Type</p>
+        <p>Favorite Destination Type</p>
         <input type="radio" name="place" id="beach">
         <label for="beach">Beach</label>
         <input type="radio" name="place" id="mountain">
@@ -470,7 +485,7 @@
         <input type="radio" name="place" id="wildlife">
         <label for="wildlife">Wildlife</label>
         <label for="destination">Destination</label><br>
-        <p style="color:black">Preferred Season</p>
+        <p >Preferred Season</p>
         <input type="radio" name="season" id="summer">
         <label for="summer">Summer</label>
         <input type="radio" name="season" id="winter">
@@ -488,7 +503,7 @@
         <option>Manali</option>
     </select><br><br>
     <label for="budget">Budget</label>
-    <input type="range" id="budget" min="1000" max="100000"><br><br>
+    <input type="range" id="budget"><br><br>
     <label for="amount">Estimated Amount</label>
     <input type="text" id="amount">
     </div>
@@ -523,7 +538,7 @@
       <img scr="z.jpeg" alt="image26"> 
     </div>   
     </div>
-    <h1 style="color:black">Boocking Form</h1>
+    <h1>Boocking Form</h1>
     <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"><br><br>
@@ -540,13 +555,13 @@
         </select><br><br>
         <label for="date">Travel Date:</label>
         <input type="date" id="date" name="date"><br><br>
-        <label for ="iamge">Upload Image</label>
-        <input type="image" id="image" name="image"><br><br>
+        <label for ="image">Upload Image</label>
+        <input type="file" id="image" name="image"><br><br>
         <label for="message">Special Request:</label><br>
         <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
         <input type="submit" value="Submit">
     </form>
-    <h1 style="color:black">Hotel Booking</h1>
+    <h1>Hotel Booking</h1>
     <form>
         <label for="hotel">Hotel Name:</label>
         <input type="text" id="hotel" name="hotel"><br><br>
@@ -566,7 +581,7 @@
         </select><br><br>
         <input type="submit" value="Book Now">
     </form>
-    <h1 style="coloe:black">Customer Reviews</h1>
+    <h1 >Customer Reviews</h1>
     <div class="a9">
         <div class="a10">
             <h2>Pavan</h2>
